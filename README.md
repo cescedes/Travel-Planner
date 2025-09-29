@@ -37,5 +37,5 @@ A full-stack web application that helps users plan multi-day trips by generating
 - **Frontend**: React, HTML5, CSS3  
 - **Backend**: Node.js, Express  
 - **APIs**: Google Places, Google Distance Matrix  
-- **Deployment**: Render (Backend + Frontend)  
+- **Deployment**: Render & Railway (Backend + Frontend)  
 - **Tools**: Git, VSCode
