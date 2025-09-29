@@ -8,7 +8,7 @@ A full-stack web application that helps users plan multi-day trips by generating
 
 ## Demo
 
-🌐 Live Demo: []() / [travel-planner-w6ve.onrender.com](https://travel-planner-w6ve.onrender.com)
+🌐 Live Demo: [bonvoyage.up.railway.app](bonvoyage.up.railway.app) / [travel-planner-w6ve.onrender.com](https://travel-planner-w6ve.onrender.com)
 
 ---
 
