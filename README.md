@@ -39,5 +39,3 @@ A full-stack web application that helps users plan multi-day trips by generating
 - **APIs**: Google Places, Google Distance Matrix  
 - **Deployment**: Render (Backend + Frontend)  
 - **Tools**: Git, VSCode
-git clone https://github.com/cescedes/travel-planner.git
-cd travel-planner
