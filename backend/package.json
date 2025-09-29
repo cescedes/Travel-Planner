@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "postinstall": "cd ../frontend && npm install && npm run build && cp -r dist ../backend/public"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
