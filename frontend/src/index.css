@@ -1,0 +1,110 @@
+/* index.css - optimized for Travel Planner app */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base font & colors */
+:root {
+  --background: #f9fafb;
+  --foreground: #1f2937;
+  --card: #ffffff;
+  --card-foreground: #1f2937;
+  --primary: #3b82f6;
+  --primary-foreground: #ffffff;
+  --secondary: #e5e7eb;
+  --secondary-foreground: #1f2937;
+  --border: #d1d5db;
+  --input: #ffffff;
+  --radius: 0.5rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--foreground);
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+button:hover {
+  background-color: #2563eb;
+}
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Inputs */
+input, select, textarea {
+  background-color: var(--input);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.75rem;
+  outline: none;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* Autocomplete dropdown */
+ul {
+  background-color: var(--card);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  max-height: 15rem;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+}
+ul li {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+ul li:hover {
+  background-color: #e0f2fe; /* light blue hover */
+}
+
+/* Cards / itinerary items */
+.card {
+  background-color: var(--card);
+  color: var(--card-foreground);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
